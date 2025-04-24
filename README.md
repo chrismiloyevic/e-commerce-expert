@@ -1,84 +1,87 @@
-# React JS Resume Website Template
+# Chris Miloyevic - Fullstack Developer Portfolio
 
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
 <div align="center">
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
+<img alt="GitHub top language" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+<img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
-
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
-
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
-
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
-
-<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
-
-## React based template for software developer-focused resume websites
+## Senior Fullstack Developer | Cloud Architect | DevOps Engineer
 
 </div>
 
-### View a [live demo here.](https://reactresume.com)
+### View my [live portfolio here.](https://your-portfolio-url.com)
 
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
+## About Me
 
-### 🎉 Version 2 is here! New features:
-1. Completely rebuilt with React and full typescript support
-2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
-3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
-4. Re-organized data population file for customizing site.
-5. Significant improvement/modernization of all site sections
- 
-**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
+I'm a seasoned Fullstack developer with over a decade of experience, specializing in building scalable, high-performance web applications. Based in Sydney, Australia, I've worked with a range of clients from startups to large corporations, consistently delivering intuitive user experiences and optimized system performance.
 
-## Description
+### 🚀 Key Skills & Expertise
 
-This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
+- **Frontend Development**: React, Angular, Next.js, Vue.js
+- **Backend Development**: Node.js, Python, GraphQL, Golang
+- **Cloud & DevOps**: AWS, Docker, Kubernetes, Azure
+- **UI/UX**: Material UI, Bootstrap, Tailwind CSS, Sass/Scss
+- **Testing & Quality**: Jest, Mocha, Enzyme, Storybook
+- **CI/CD**: Jenkins, GitHub Actions, Azure DevOps
 
-## Make it Your Own!
+### 💼 Professional Experience
 
-### 1. Make sure you have what you need
+#### Senior Fullstack Developer at BNBPot (2022 - Present)
+- Led modernization of legacy systems with React and Angular
+- Implemented microservices architecture using Node.js and TypeScript
+- Optimized cloud infrastructure with AWS services
+- Mentored junior developers and improved team efficiency
 
-To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
+#### Senior Fullstack Developer at BCForward (2019 - 2022)
+- Developed full-stack applications using React and Java Spring Boot
+- Optimized database performance with PostgreSQL and MySQL
+- Implemented CI/CD pipelines with Jenkins and Docker
+- Integrated third-party services for enhanced functionality
 
-### 2. Fork and download this repo (and star if you like!)
+## Project Setup
 
-Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
+### Prerequisites
+- Node.js (Latest stable version)
+- Yarn package manager
 
-### 3. Install dependencies and run
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/react-resume-template.git
+```
 
-Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
+2. Install dependencies
+```bash
+cd react-resume-template
+yarn install
+```
 
-### 4. Customize the data to make it your own
+3. Run the development server
+```bash
+yarn dev
+```
 
-All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
+### Customization
+All site data is managed in `/src/data/data.tsx`. Update this file to customize:
+- Personal information
+- Skills and expertise
+- Work experience
+- Education
+- Portfolio projects
+- Contact information
 
-### 5. Hook up contact form
-Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
+## Contact
 
-### 6. Make any other changes you like
+Feel free to reach out for collaboration or opportunities:
+- GitHub: [@bluesky-ss](https://github.com/bluesky-ss)
+- Location: Sydney, Australia
+- Email: your.email@example.com
 
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
+## License
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
-
-Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
-
-## Project Created & Maintained By
-
-### Tim Baker
-
-<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
-
-## Stargazers
-
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
-
-## Forkers
-
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
