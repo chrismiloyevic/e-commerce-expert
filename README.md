@@ -51,12 +51,12 @@ I'm a seasoned Fullstack developer with over a decade of experience, specializin
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/react-resume-template.git
+git clone https://github.com/bluesky-ss/portfolio.git
 ```
 
 2. Install dependencies
 ```bash
-cd react-resume-template
+cd portfolio
 yarn install
 ```
 
@@ -79,9 +79,3 @@ All site data is managed in `/src/data/data.tsx`. Update this file to customize:
 Feel free to reach out for collaboration or opportunities:
 - GitHub: [@bluesky-ss](https://github.com/bluesky-ss)
 - Location: Sydney, Australia
-- Email: your.email@example.com
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
