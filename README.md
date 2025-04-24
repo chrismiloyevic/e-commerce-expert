@@ -1,6 +1,6 @@
 # Chris Miloyevic - Fullstack Developer Portfolio
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
+![ReactJS Resume Website Template](resume-screenshot.png?raw=true 'ReactJS Resume Website Template')
 
 <div align="center">
 
