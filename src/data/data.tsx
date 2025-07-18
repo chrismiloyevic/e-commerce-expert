@@ -62,15 +62,16 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Chris.`,
+  name: `eCommerce expert`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Australian based <strong className="text-stone-100">Fullstack developer</strong> focused on clean code and user experience. <br />
-        I've worked with a range of clients from startups to large corporations. I am flexible on different timezones
+        Hi there! I am Chris. I've been a Full-Stack developer / eCommerce expert for over 15+ years now.
+        Clients often return not just for the quality of the work, but for how smooth and collaborative the process is. I care deeply about getting things right, keeping communication clear, and always delivering on time.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm always looking for new challenges and opportunities.
+        I absolutely love what I do and if I can't do it, I will be honest about it.
+        If you're looking for a dependable, easy-to-work-with developer, I'd love to hear more about your project.
       </p>
     </>
   ),
@@ -94,14 +95,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a seasoned Fullstack developer with over a decade of experience, I specialize in building scalable, high-performance web
-applications using React, Angular, Next.js, and Node.js. Throughout my career, I've led and contributed to 25+ successful projects,
-consistently delivering intuitive user experiences and optimized system performance.`,
+  description: `I am an expert with Shopify and WooCommerce e-commerce builds - from scratch, theme-based, or headless setups. I've worked on solutions for both B2B and B2C clients. Whether you need a conversion-optimized storefront, advanced API integrations, or help troubleshooting a stubborn checkout issue, I deliver fast, clean, and user-friendly solutions.`,
   aboutItems: [
     { label: 'Location', text: 'Sydney, Australia', Icon: MapIcon },
     { label: 'Age', text: '36', Icon: CalendarIcon },
     { label: 'Nationality', text: 'Australian', Icon: FlagIcon },
-    { label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon },
+    { label: 'Interests', text: 'Skydiving, Cooking', Icon: SparklesIcon },
     { label: 'Education', text: 'Griffith University', Icon: AcademicCapIcon },
   ],
 };
@@ -114,20 +113,20 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
+        name: 'Shopify',
+        level: 10
+      },
+      {
+        name: 'WooCommerce',
+        level: 10
+      },
+      {
         name: 'React',
         level: 10,
       },
       {
         name: 'Next.js',
-        level: 9
-      },
-      {
-        name: 'Angular',
-        level: 9
-      },
-      {
-        name: 'Vue',
-        level: 7
+        level: 9.6
       }
     ],
   },
@@ -164,12 +163,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Material UI',
+        name: 'Sass/Scss',
         level: 10,
       },
       {
-        name: 'Sass/Scss',
-        level: 10,
+        name: 'Material UI',
+        level: 9,
       }
     ],
   },
@@ -177,15 +176,15 @@ export const skills: SkillGroup[] = [
     name: 'DevOps',
     skills: [
       {
-        name: 'Docker',
-        level: 10,
-      },
-      {
-        name: 'Kubernetes',
+        name: 'AWS',
         level: 9,
       },
       {
-        name: 'AWS',
+        name: 'Docker',
+        level: 9,
+      },
+      {
+        name: 'Kubernetes',
         level: 9,
       },
       {
@@ -218,9 +217,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Shopify Theme Customization & Cross-Device Optimization, Klaviyo Integration',
+    description: '',
+    url: 'https://unravelled.store/',
     image: porfolioImage4,
   },
   {
@@ -242,9 +241,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Shopify Plus Custom BuyBox with Subscription & Third party app integration',
+    description: '',
+    url: 'https://nourishednaturalhealth.com/',
     image: porfolioImage8,
   },
   {
@@ -362,6 +361,16 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Emily Carter',
+      text: 'Chris played a pivotal role in elevating our Shopify store. His deep understanding of eCommerce and Shopify customization helped us launch new features quickly and seamlessly. Our sales and customer satisfaction both improved thanks to his expertise and proactive communication.',
+      image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg',
+    },
+    {
+      name: 'Liam Patel',
+      text: 'We partnered with Chris to overhaul our Shopify storefront, and the results were outstanding. His ability to implement custom features and optimize our site for conversions made a measurable impact on our business. Chris is a true Shopify expert and a pleasure to work with.',
+      image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
+    },
+    {
       name: 'David Wilson',
       text: 'Chris led our frontend development team with remarkable expertise in React and Angular. His implementation of Material UI and Tailwind CSS created a stunning user interface that increased our user engagement by 60%. His focus on performance optimization and clean code architecture set new standards for our development team.',
       image: 'https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg',
@@ -384,5 +393,5 @@ export const testimonial: TestimonialSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/bluesky-ss' },
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/chrismiloyevic' },
 ];

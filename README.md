@@ -51,7 +51,7 @@ I'm a seasoned Fullstack developer with over a decade of experience, specializin
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/bluesky-ss/portfolio.git
+git clone https://github.com/chrismiloyevic/portfolio.git
 ```
 
 2. Install dependencies
@@ -77,5 +77,5 @@ All site data is managed in `/src/data/data.tsx`. Update this file to customize:
 ## Contact
 
 Feel free to reach out for collaboration or opportunities:
-- GitHub: [@bluesky-ss](https://github.com/bluesky-ss)
+- GitHub: [@chrismiloyevic](https://github.com/chrismiloyevic)
 - Location: Sydney, Australia
