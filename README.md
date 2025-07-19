@@ -1,6 +1,5 @@
-# Chris Miloyevic - Fullstack Developer Portfolio
+# Chris Miloyevic - eCommerce Expert
 
-![ReactJS Resume Website Template](resume-screenshot.png?raw=true 'ReactJS Resume Website Template')
 
 <div align="center">
 
@@ -9,7 +8,7 @@
 <img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
 <img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
 
-## Senior Fullstack Developer | Cloud Architect | DevOps Engineer
+## Certified Full-Stack Developer / eCommerce Expert
 
 </div>
 
@@ -17,14 +16,15 @@
 
 ## About Me
 
-I'm a seasoned Fullstack developer with over a decade of experience, specializing in building scalable, high-performance web applications. Based in Sydney, Australia, I've worked with a range of clients from startups to large corporations, consistently delivering intuitive user experiences and optimized system performance.
+I am an eCommerce expert with Shopify and WooCommerce e-commerce builds - from scratch, theme-based, or headless setups. I've worked on solutions for both B2B and B2C clients. Whether you need a conversion-optimized storefront, advanced API integrations, or help troubleshooting a stubborn checkout issue, I deliver fast, clean, and user-friendly solutions.
 
 ### 🚀 Key Skills & Expertise
 
-- **Frontend Development**: React, Angular, Next.js, Vue.js
-- **Backend Development**: Node.js, Python, GraphQL, Golang
+- **CMS Development**: Shipify, WooCommerce
+- **Frontend Development**: React, Next.js
+- **Backend Development**: Node.js, Python, GraphQL, PHP, Laravel
 - **Cloud & DevOps**: AWS, Docker, Kubernetes, Azure
-- **UI/UX**: Material UI, Bootstrap, Tailwind CSS, Sass/Scss
+- **UI/UX**: Bootstrap, Tailwind CSS, Sass/Scss
 - **Testing & Quality**: Jest, Mocha, Enzyme, Storybook
 - **CI/CD**: Jenkins, GitHub Actions, Azure DevOps
 
