@@ -93,7 +93,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am an expert with Shopify and WooCommerce e-commerce builds - from scratch, theme-based, or headless setups. I've worked on solutions for both B2B and B2C clients. Whether you need a conversion-optimized storefront, advanced API integrations, or help troubleshooting a stubborn checkout issue, I deliver fast, clean, and user-friendly solutions.`,
   aboutItems: [
-    {label: 'Location', text: 'Sydney, Australia', Icon: MapIcon},
+    {label: 'Location', text: 'Bargara QL, Australia', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Australian', Icon: FlagIcon},
     {label: 'Interests', text: 'Skydiving, Cooking', Icon: SparklesIcon},
