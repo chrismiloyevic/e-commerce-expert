@@ -82,7 +82,7 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-    }
+    },
   ],
 };
 
@@ -294,8 +294,8 @@ export const experience: TimelineItem[] = [
           headless setups.
         </li>
         <li>
-          Expertise in building conversion-optimized storefronts, advanced API integrations, and troubleshooting checkout
-          issues.
+          Expertise in building conversion-optimized storefronts, advanced API integrations, and troubleshooting
+          checkout issues.
         </li>
         <li>
           Focus on delivering fast, clean, and user-friendly solutions with a strong emphasis on performance and
@@ -308,10 +308,8 @@ export const experience: TimelineItem[] = [
     date: 'January 2022 - November 2024',
     location: 'BNBPot',
     title: 'Senior Fullstack Developer',
-    content: (
-      <></>
-    ),
-  }
+    content: <></>,
+  },
 ];
 
 /**
