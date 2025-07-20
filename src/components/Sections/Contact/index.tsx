@@ -1,10 +1,9 @@
-import { ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline';
-import { FC, memo } from 'react';
+import {ChatBubbleLeftRightIcon} from '@heroicons/react/24/outline';
+import {FC, memo} from 'react';
 
-import { SectionId } from '../../../data/data';
+import {SectionId} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ContactForm from './ContactForm';
-
 
 const Contact: FC = memo(() => {
   return (
