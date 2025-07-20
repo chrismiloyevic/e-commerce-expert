@@ -47,7 +47,7 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
+  // Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
@@ -62,7 +62,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `eCommerce expert`,
+  name: `eCommerce expert - Shopify Plus & WooCommerce`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -82,12 +82,7 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
-    },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
+    }
   ],
 };
 
@@ -289,83 +284,34 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2022 - Present',
-    location: 'BNBPot',
-    title: 'Senior Fullstack Developer',
+    date: 'November 2024 - Present',
+    location: 'Freelance at Upwork',
+    title: 'eCommerce / Full-Stack Expert',
     content: (
       <ul className="list-disc list-inside">
         <li>
-          Developed high-performance retail applications using <strong>React, Angular, and Node.js</strong>, enhancing
-          front-end responsiveness and backend efficiency.
+          Specializing in <strong>Shopify Plus and WooCommerce</strong> e-commerce builds, from scratch, theme-based, or
+          headless setups.
         </li>
         <li>
-          Led the modernization of legacy systems, integrating reusable components and UI frameworks such as{' '}
-          <strong>Material UI, Bootstrap, and Tailwind CSS</strong>, significantly improving user engagement.
+          Expertise in building conversion-optimized storefronts, advanced API integrations, and troubleshooting checkout
+          issues.
         </li>
         <li>
-          Spearheaded microservices development, utilizing <strong>Node.js, Express.js, and TypeScript</strong>,
-          ensuring modularity, enhanced scalability, and system resilience.
-        </li>
-        <li>
-          Built and maintained automated testing frameworks using <strong>Storybook, Jest, Mocha, and Enzyme</strong>,
-          increasing test coverage and minimizing production regressions.
-        </li>
-        <li>
-          Optimized cloud infrastructure by deploying{' '}
-          <strong>
-            AWS-based solutions ( EC2, Lambda, Beanstalk, RDS, S3, Route 53, SNS/SQS, API Gateway, Step Functions)
-          </strong>
-          , reducing latency and improving database reliability.
-        </li>
-        <li>
-          Orchestrated containerized deployments with <strong>Docker and Kubernetes</strong>, streamlining CI/CD
-          workflows and automating deployments with <strong>Jenkins and Azure DevOps</strong>.
-        </li>
-        <li>
-          Mentored junior developers, guiding them on{' '}
-          <strong>React, Redux, JavaScript, TypeScript, and Microservices best practices</strong>, contributing to
-          increased team efficiency and code quality.
+          Focus on delivering fast, clean, and user-friendly solutions with a strong emphasis on performance and
+          scalability.
         </li>
       </ul>
     ),
   },
   {
-    date: 'June 2019 - January 2022',
-    location: 'BCForward',
+    date: 'January 2022 - November 2024',
+    location: 'BNBPot',
     title: 'Senior Fullstack Developer',
     content: (
-      <ul className="list-disc list-inside">
-        <li>
-          Developed and maintained full-stack web applications using{' '}
-          <strong>React, Java (Spring Boot), and Node.js</strong>, providing scalable and high-performance solutions.
-        </li>
-        <li>
-          Designed and implemented RESTful APIs using <strong>Java Spring Boot</strong>, ensuring efficient
-          communication between frontend and backend services.
-        </li>
-        <li>
-          Architected and deployed cloud-based solutions on <strong>AWS</strong>, utilizing services such as{' '}
-          <strong>Lambda, EC2, and S3</strong>.
-        </li>
-        <li>
-          Optimized SQL database queries for <strong>PostgreSQL and MySQL</strong>, reducing query execution times by
-          40% and improving application responsiveness.
-        </li>
-        <li>
-          Mentored junior developers, conducting code reviews, mentoring, and implementing best practices, leading to a
-          25% reduction in production bugs.
-        </li>
-        <li>
-          Integrated third-party services such as Stripe for payments, Firebase for authentication, and Twilio for
-          messaging, enhancing application functionality.
-        </li>
-        <li>
-          Enhanced DevOps and CI/CD pipelines, automating deployments using{' '}
-          <strong>Jenkins, GitHub Actions, and Docker</strong>, leading to faster and more reliable releases.
-        </li>
-      </ul>
+      <></>
     ),
-  },
+  }
 ];
 
 /**
@@ -375,7 +321,7 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Emily Carter',
+      name: 'Jocelyn',
       text: 'Chris played a pivotal role in elevating our Shopify store. His deep understanding of eCommerce and Shopify customization helped us launch new features quickly and seamlessly. Our sales and customer satisfaction both improved thanks to his expertise and proactive communication.',
       image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg',
     },
