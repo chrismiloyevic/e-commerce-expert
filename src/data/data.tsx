@@ -142,8 +142,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Golang',
-        level: 7,
+        name: 'PHP(Laravel)',
+        level: 10,
       },
     ],
   },
