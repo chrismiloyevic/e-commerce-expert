@@ -62,11 +62,11 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `eCommerce expert - Shopify Plus & WooCommerce`,
+  name: `Chris Miloyevic`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Hi there! I am Chris. I've been a Full-Stack developer / eCommerce expert for over 15+ years now. Clients often
+        Hi there! I've been a Full-Stack developer / eCommerce expert for over 15+ years now. Clients often
         return not just for the quality of the work, but for how smooth and collaborative the process is. I care deeply
         about getting things right, keeping communication clear, and always delivering on time.
       </p>
